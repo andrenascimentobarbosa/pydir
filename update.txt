@@ -1,0 +1,9 @@
+Things i've changed:
+
+File write mode: from 'w+' to 'a' to avoid over write on the file.
+
+Remove line break: adding .strip() to remove the caracherters of a line.
+
+Error handling: block of try-except wraped in the GET request to caputer and pop up errors in the network.
+
+Reusage of the Session: the 'requests.Session' for better performance reusing the HTTP connection underlying.

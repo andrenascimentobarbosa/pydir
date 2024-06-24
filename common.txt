@@ -9,6 +9,7 @@
 .git/HEAD
 .history
 .hta
+robots.txt
 .htaccess
 .htpasswd
 .listing
